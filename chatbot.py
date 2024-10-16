@@ -33,9 +33,9 @@ from transformers import DistilBertForTokenClassification, AutoTokenizer
 # Database connection configuration variables
 DB_HOST = "localhost"
 DB_PORT = 5432
-DB_NAME = "users"
-DB_USER = "postgres"
-DB_PASSWORD = "amine"
+DB_NAME = "name"
+DB_USER = "user"
+DB_PASSWORD = "pwd"
 # Define a function for running a legal case chatbot
 def run_legal_case_chatbot(user_id):
     # Clear the Streamlit app's current content
